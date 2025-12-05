@@ -16,7 +16,7 @@
 - **Kód země**: Opraveno získání kódu země v `CartModelDenormalizer.php`, `ShipmentSettingDenormalizer.php`, `CartValidator.php`
 - **Formátování**: Upraven `label-method.css` pro správné formátování odkazu mapy
 
-## [1.0.1] - 2025-12-0
+## [1.0.1] - 2025-12-01
 
 ### Opraveno
 - Opravena instalace databázových tabulek v `script.php` - přidána kontrola a ruční SQL instalace
