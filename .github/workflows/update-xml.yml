@@ -1,0 +1,47 @@
+name: Update Joomla Update Server XML
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  update-xml:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate update XML
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          TAG="${GITHUB_REF_NAME}"
+
+          cat > updates/pkg_pplcz.xml << EOF
+          <?xml version="1.0" encoding="utf-8"?>
+          <updates>
+              <update>
+                  <name>PPL CZ Package</name>
+                  <description>PPL CZ shipping integration for Joomla 5 and VirtueMart</description>
+                  <element>pkg_pplcz</element>
+                  <type>package</type>
+                  <client>0</client>
+                  <version>${VERSION}</version>
+                  <infourl title="Release notes">https://github.com/PPL-CZ/PPL-Joomla/releases/tag/${TAG}</infourl>
+                  <downloads>
+                      <downloadurl type="full" format="zip">https://github.com/PPL-CZ/PPL-Joomla/releases/download/${TAG}/pkg-pplcz-${VERSION}.zip</downloadurl>
+                  </downloads>
+                  <targetplatform name="joomla" version="5.*"/>
+                  <php_minimum>8.1</php_minimum>
+              </update>
+          </updates>
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add updates/pkg_pplcz.xml
+          git commit -m "Update server XML for ${GITHUB_REF_NAME}"
+          git push
