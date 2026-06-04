@@ -2,18 +2,14 @@
 
 ## [1.1.0] - 2026-06-04
 
-### Nové funkce
+### Přidáno
 - Implementace nového mapového widgetu PPL pro výběr výdejních míst
 - Nastavení a verifikace mapového widgetu podle API klíče
 
-### Opravy
+### Opraveno
 - Oprava seznamu povolených zemí
 - Oprava XML manifestů (zpětná kompatibilita s Joomla 4)
 - Opravy drobných bugů
-
-### Vylepšení
-- Refaktorizace kódu podle WooCommerce referenční implementace
-- Úprava buildovacího skriptu
 
 ## [1.0.3] - 2026-01-26
 
