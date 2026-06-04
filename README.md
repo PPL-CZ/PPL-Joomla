@@ -46,7 +46,7 @@ Intuitivní konfigurace přímo v administraci Joomla bez nutnosti složitého n
 
 ## Požadavky
 
-- **Joomla** 5.0 a vyšší
+- **Joomla** 4.0 a vyšší
 - **VirtueMart** 4.0 a vyšší
 - **PHP** 8.1 a vyšší
 - Aktivní účet u PPL
