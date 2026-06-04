@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" version="4.0" method="upgrade">
+    <name>PPL CZ Package</name>
+    <packagename>pplcz</packagename>
+    <version>1.1.0</version>
+    <creationDate>2026-06-04</creationDate>
+    <author>PPL</author>
+    <authorEmail>info@ppl.cz</authorEmail>
+    <authorUrl>https://www.ppl.cz</authorUrl>
+    <copyright>Copyright (C) 2025 PPL CZ. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <description>PPL - Kompletní integrace s PPL API pro Joomla a VirtueMart. Obsahuje komponentu pro správu zásilek a pluginy pro VirtueMart dopravu a produkty.</description>
+
+    <languages folder="languages">
+        <language tag="cs-CZ">cs-CZ/pkg_pplcz.ini</language>
+        <language tag="en-GB">en-GB/pkg_pplcz.ini</language>
+    </languages>
+
+    <files folder="packages">
+        <!-- Main component -->
+        <file type="component" id="com_pplcz">com_pplcz.zip</file>
+
+        <!-- VirtueMart shipping plugin -->
+        <file type="plugin" id="pplshipping" group="vmshipment">plg_vmshipment_pplshipping.zip</file>
+
+        <!-- VirtueMart custom plugin for products -->
+        <file type="plugin" id="pplproduct" group="vmcustom">plg_vmcustom_pplproduct.zip</file>
+    </files>
+
+    <updateservers>
+        <server type="extension" priority="1" name="PPL CZ Updates">https://raw.githubusercontent.com/PPL-CZ/PPL-Joomla/main/updates/pkg_pplcz.xml</server>
+    </updateservers>
+</extension>

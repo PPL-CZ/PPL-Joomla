@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.0] - 2026-06-04
+
+### Nové funkce
+- Implementace nového mapového widgetu PPL pro výběr výdejních míst
+- Nastavení a verifikace mapového widgetu podle API klíče
+
+### Opravy
+- Oprava seznamu povolených zemí
+- Oprava XML manifestů (zpětná kompatibilita s Joomla 4)
+- Opravy drobných bugů
+
+### Vylepšení
+- Refaktorizace kódu podle WooCommerce referenční implementace
+- Úprava buildovacího skriptu
+
 ## [1.0.3] - 2026-01-26
 
 ### Přidáno
@@ -54,6 +69,7 @@
 - **PPL API integrace**: Integrace s PPL API, React admin rozhraní, správa zásilek a štítků
 - **ParcelShop**: Podpora ParcelShop výdejních míst, dobírek a více měn
 
+[1.1.0]: https://github.com/PPL-CZ/PPL-Joomla/releases/tag/1.1.0
 [1.0.3]: https://github.com/PPL-CZ/PPL-Joomla/releases/tag/v1.0.3
 [1.0.2]: https://github.com/PPL-CZ/PPL-Joomla/releases/tag/v1.0.2
 [1.0.1]: https://github.com/PPL-CZ/PPL-Joomla/releases/tag/v1.0.1
