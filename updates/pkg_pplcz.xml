@@ -6,10 +6,10 @@
         <element>pkg_pplcz</element>
         <type>package</type>
         <client>0</client>
-        <version>1.1.0</version>
-        <infourl title="Release notes">https://github.com/PPL-CZ/PPL-Joomla/releases/tag/1.1.0</infourl>
+        <version>1.1.1</version>
+        <infourl title="Release notes">https://github.com/PPL-CZ/PPL-Joomla/releases/tag/1.1.1</infourl>
         <downloads>
-            <downloadurl type="full" format="zip">https://github.com/PPL-CZ/PPL-Joomla/releases/download/1.1.0/pkg-pplcz-1.1.0.zip</downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/PPL-CZ/PPL-Joomla/releases/download/1.1.1/pkg-pplcz-1.1.1.zip</downloadurl>
         </downloads>
         <targetplatform name="joomla" version="5.*"/>
         <php_minimum>8.1</php_minimum>

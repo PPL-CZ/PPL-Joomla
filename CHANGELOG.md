@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.1.1] - 2026-06-30
+
+### Opravy
+- Odebrány neplatné parametry Konfigurace mapového widgetu — mode a allowedAccessPointTypes, opraven defaultLanguage na defaultLang dle
+  aktuální specifikace PPL widgetu.
+
 ## [1.1.0] - 2026-06-04
 
 ### Přidáno

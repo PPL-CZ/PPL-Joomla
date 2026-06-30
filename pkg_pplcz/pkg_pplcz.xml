@@ -2,8 +2,8 @@
 <extension type="package" version="4.0" method="upgrade">
     <name>PPL CZ Package</name>
     <packagename>pplcz</packagename>
-    <version>1.1.0</version>
-    <creationDate>2026-06-04</creationDate>
+    <version>1.1.1</version>
+    <creationDate>2026-06-30</creationDate>
     <author>PPL</author>
     <authorEmail>info@ppl.cz</authorEmail>
     <authorUrl>https://www.ppl.cz</authorUrl>
