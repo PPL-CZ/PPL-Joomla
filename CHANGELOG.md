@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.2] - 2026-09-15
+
+### Opraveno
+
+* **Přihlášení k PPL API**: opraveny API adresy a číslo integrátoru při produkčním buildu.
+* Opraven formát hlaviček přihlašovacího požadavku a ošetřeno čtení poškozeného tokenu.
+
+### Změněno
+
+* Nastavení pluginu přesunuto do vlastní tabulky `#__pplcz_setting`; stávající se při aktualizaci automaticky převede.
+
 ## [1.1.1] - 2026-06-30
 
 ### Opravy
